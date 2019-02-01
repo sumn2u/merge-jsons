@@ -48,7 +48,7 @@ isJSON(num) ;
 isJSON(str) ;
 // false
 
-// unterschied zu typeof beachten!
+// note difference to typeof!
 typeof date === "object"
 // true
 isJSON(date) ;
