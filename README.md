@@ -1,4 +1,4 @@
-`merge-jsons` is a Node.js module, which provides 3 functions, `isJSON` ,`removeDuplicates` and `mergeJSON`.
+`merge-jsons` is a Node.js module, which provides 3 functions, `isJSON` ,`removeDuplicateJSON` and `mergeJSON`.
 
 ## installation and usage
 
@@ -7,7 +7,7 @@ npm install merge-jsons
 ```
 
 ``` javascript
-import { mergeJSON, removeDuplicatesJSON , isJSON } from "merge-jsons";
+import { mergeJSON, removeDuplicateJSON , isJSON } from "merge-jsons";
 
 ```
 
@@ -27,7 +27,7 @@ When using `merge` consider, that the second parameter is dominant. Keys from th
 ``` javascript
 const arrays = [{id: 1, name: "sravan ganji"}, {id: 2, name: "anu"},{id: 4, name: "mammu"}, {id: 3, name: "sanju"},{id: 3, name: "ram"},{id: 1, name: "sravan ganji"}
 ,{id: 2, name: "anu"},{id: 4, name: "mammus"},{id: 4, name: "sanju"},{id: 3, name: "ram"}];
-removeDuplicatesJSON(arrays)
+removeDuplicateJSON(arrays)
 //[ { id: 1, name: 'sravan ganji' }, { id: 2, name: 'anu' }, { id: 4, name: 'mammu' }, { id: 3, name: 'sanju' }, { id: 3, name: 'ram' }, { id: 4, name: 'mammus' }, { id: 4, name: 'sanju' } ]
 ```
 
