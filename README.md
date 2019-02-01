@@ -16,7 +16,7 @@ import { mergeJSON, removeDuplicatesJSON , isJSON } from "merge-jsons";
 ``` javascript
 let obj1 = {a:true, b:false} ;
 let obj2 = {b:true, c:12345} ;
-let result = mergeJSON.merge(obj1, obj2) ;
+let result = mergeJSON(obj1, obj2) ;
 console.log(result) ;
 // Object {a: true, b: true, c: 12345}
 ```
@@ -39,19 +39,19 @@ let num = 123 ;
 let str = "hello world!" ;
 let date = new Date() ;
 
-mergeJSON.isJSON(obj) ;
+isJSON(obj) ;
 // true
 
-mergeJSON.isJSON(num) ;
+isJSON(num) ;
 // false
 
-mergeJSON.isJSON(str) ;
+isJSON(str) ;
 // false
 
 // unterschied zu typeof beachten!
 typeof date === "object"
 // true
-mergeJSON.isJSON(date) ;
+isJSON(date) ;
 // false
 ```
 
