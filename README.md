@@ -1,6 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/issues) [![GitHub forks](https://img.shields.io/github/forks/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/network) [![GitHub stars](https://img.shields.io/github/stars/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/stargazers) [![GitHub license](https://img.shields.io/github/license/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/blob/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/sumn2u/merge-jsons.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsumn2u%2Fmerge-jsons)
 [![Latest version](https://img.shields.io/github/tag/sumn2u/merge-jsons.svg?label=release&style=flat&maxAge=2592000)](https://github.com/sumn2u/merge-jsons/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/merge-jsons.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/merge-jsons)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons?ref=badge_shield)
 
 `merge-jsons` is a Node.js module, which provides 3 functions, `isJSON` ,`removeDuplicateJSON` and `mergeJSON`.
 
@@ -60,3 +61,7 @@ isJSON(date) ;
 ```
 
 The function returns **true**, when the given parameter is a JSON object. I it is no JSON object it returns **false**. For JavaScript objects, that are not *pure* JSON objects it also returns **false**.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons?ref=badge_large)
