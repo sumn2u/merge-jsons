@@ -62,3 +62,7 @@ isJSON(date) ;
 ```
 
 The function returns **true**, when the given parameter is a JSON object. I it is no JSON object it returns **false**. For JavaScript objects, that are not *pure* JSON objects it also returns **false**.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons?ref=badge_large)
