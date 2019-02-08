@@ -1,7 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/issues) [![GitHub forks](https://img.shields.io/github/forks/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/network) [![GitHub stars](https://img.shields.io/github/stars/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/stargazers) [![GitHub license](https://img.shields.io/github/license/sumn2u/merge-jsons.svg)](https://github.com/sumn2u/merge-jsons/blob/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/sumn2u/merge-jsons.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsumn2u%2Fmerge-jsons)
 [![GitHub tag](https://img.shields.io/github/tag/sumn2u/merge-jsons.svg)](https://GitHub.com/sumn2u/merge-jsons/tags/)
 [![GitHub release](https://img.shields.io/github/release/sumn2u/merge-jsons.svg)](https://GitHub.com/sumn2u/merge-jsons/releases/)
-[![Downloads](https://img.shields.io/packagecontrol/dt/merge-jsons.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/merge-jsons)
+<a href="https://npmjs.com/package/money-cli"><img src="https://img.shields.io/npm/dt/merge-jsons.svg" alt="npm Downloads"></a> 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsumn2u%2Fmerge-jsons?ref=badge_shield)
 
 `merge-jsons` is a Node.js module, which provides 3 functions, `isJSON` ,`removeDuplicateJSON` and `mergeJSON`.
